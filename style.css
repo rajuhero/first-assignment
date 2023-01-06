@@ -39,3 +39,19 @@ header{
 
     
 }
+/* ---about section---- */
+.about-item{
+    width: 800px;
+    height: 400px;
+
+    display: flex;
+    justify-content: baseline;
+    gap: 200px;
+}
+
+.about-text{
+    margin-top: 50px;
+}
+.about-item img{
+width: 300px;
+}
