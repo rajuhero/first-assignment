@@ -46,7 +46,7 @@ header{
 
     display: flex;
     justify-content: baseline;
-    gap: 200px;
+    gap: 300px;
 }
 
 .about-text{
@@ -54,4 +54,82 @@ header{
 }
 .about-item img{
 width: 300px;
+}
+
+/* --plan section-- */
+.plan-item{
+    width: 800px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    margin-left:150px;
+    margin-top: 50px;
+}
+.plan-container h1{
+    margin-left: 300px;
+    color: #fff;
+}
+.plan-item img{
+width: 100px;
+}
+.plan-item p{
+    color: gray;
+}
+
+/* colling section */
+
+.coling-container{
+background-image: url(images/watch.png);
+background-repeat: no-repeat;
+background-size: 600px;
+width: 900px;
+height: 300px;
+margin-left: 200px;
+
+}
+.call-btn{
+
+    background-color: #fff;
+    color: coral;
+    border-style: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+/* footer section */
+.footer-container{
+    background-color:black;
+    color: #fff;
+    height: 400px;
+}
+.footer-container h2{
+    margin-left: 100px;
+}
+.footer-item{
+    display: flex;
+    gap: 40px;
+    margin: 20px 20px 20px 20px;
+    width: 800px;
+    padding: 10px;margin-left: 50px;
+}
+.future p{
+font-size: 10px;
+}
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe input{
+    border-radius: 5px;
+    height: 30px;
+
+}
+.subscribe button{
+background-color: blue;
+color: #fff;
+margin-top: 10px;
 }
